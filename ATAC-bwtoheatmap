@@ -1,0 +1,1 @@
+deeptools-3.2.1/bin/computeMatrix reference-point --referencePoint center  -b 3000 -a 3000  -R prostate.bed -S 1.nod.cpm.bw 2.nod.cpm.bw 3.nod.cpm.bw 4.nod.cpm.bw --skipZeros  -o /outs/prostate.gz --outFileSortedRegions /outs/prostate.bed;deeptools-3.2.1/bin/plotHeatmap -m /outs/prostate.gz -out /outs/prostate.ATAC.pdf --colorList  'white,red'
